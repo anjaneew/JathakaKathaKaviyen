@@ -1,0 +1,121 @@
+/* Navbar */
+
+#navbar {
+    background-color: #333; /* Navbar background color */
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 5px;
+}
+
+#header{
+    margin-top: 100px;
+
+}
+
+/*Other*/
+
+
+h1{
+    text-align: center;
+    color: black;
+}
+
+h2, h3{
+    text-align: center;
+    color: white;
+}
+
+img {
+    width:20%;
+    height:auto;
+    max-width: 50%;
+
+}
+
+pre {
+    color: white;
+    font-size:20px;
+    font-style:italic;
+    margin-left: 150px;
+    background-color: rgba(23, 49, 64, 0.75);
+    display: inline-block;
+    padding: 5px;
+    @media (max-width: 600px) {
+        pre {
+            font-size: 16px;
+            margin-left: 10px;
+        }
+} }
+
+footer {
+    text-align:center;
+    background-color: rgba(9, 14, 18);
+    color: white;
+}
+
+.blog_summary{
+    text-align: center;
+}
+
+.blog_header{
+    margin-top: 100px;
+}
+
+p{
+    line-height: 1.5;
+    color: white;
+}
+
+.poem p {
+    background-color: rgba(9, 14, 18, 0.75);
+}
+
+dt{
+    font-weight:bold;
+}
+
+dt, dd{
+    font-style:italic;
+    margin-top: 5px;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+    line-height:1.5;
+}
+
+.story {
+    line-height: 1.5;
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: justify;
+}
+
+
+

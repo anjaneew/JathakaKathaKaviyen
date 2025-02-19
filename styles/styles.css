@@ -1,0 +1,136 @@
+h1,h2, h3, #code{
+    text-align: center;
+}
+
+img {
+    width:50%;
+    height:auto;
+    max-width: 50%;
+}
+
+pre {
+    font-size:20px;
+    font-style:italic;
+}
+
+footer {
+    text-align:center;
+}
+
+.blog_summary{
+    text-align: center;
+}
+/* Navbar */
+
+#navbar {
+    background-color: #333; /* Navbar background color */
+    padding: 10px 0;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+#navbar ul li {
+    margin: 0 15px;
+}
+
+#navbar ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px 15px;
+    display: inline-block;
+    transition: background-color 0.3s ease;
+}
+
+#navbar ul li a:hover {
+    background-color: #555; /* Change background on hover */
+    border-radius: 5px;
+}
+
+#header{
+    margin-top: 100px;
+}
+
+/* Blog List */
+
+#bloglist {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    padding: 20px;
+}
+
+article:hover {
+    transform: translateY(-5px);
+}
+
+.blog_link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+}
+
+.blog_thumbnail {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.blog_thumbnail:hover {
+    transform: scale(1.05);
+}
+
+.blog_topic {
+    margin: 10px 0;
+    font-size: 1.5em;
+    color: #131b1e;
+    text-align: left;
+}
+
+.blog_summary {
+    font-size: 1em;
+    color: #11450e;
+    margin-top: 5px;
+    text-align: left;
+}
+.blog_summary:hover,.blog_topic:hover{
+    color: #83b4cd;
+}
+
+body {
+    background: linear-gradient(135deg, #4f8866, #b0d5b0);
+    background-size: 400% 400%; /* Creates a smooth animation effect */
+    animation: gradientBG 15s ease infinite;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/*!* Optional: Smooth animated gradient effect *!*/
+/*@keyframes gradientBG {*/
+/*    0% { background-position: 0% 50%; }*/
+/*    50% { background-position: 100% 50%; }*/
+/*    100% { background-position: 0% 50%; }*/
+/*}*/
+
+/*!* Optional: Centered blog container with a subtle overlay *!*/
+/*.blog-container {*/
+/*    max-width: 900px;*/
+/*    margin: auto;*/
+/*    padding: 20px;*/
+/*    background: rgba(0, 0, 0, 0.5); !* Semi-transparent overlay *!*/
+/*    border-radius: 10px;*/
+/*    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);*/
+/*}*/
